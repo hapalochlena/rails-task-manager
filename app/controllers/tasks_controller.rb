@@ -45,3 +45,5 @@ class TasksController < ApplicationController
     params.require(:task).permit(:title, :details, :completed)
   end
 end
+
+#comment for github
